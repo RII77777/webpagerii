@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> My first Webpage </title>
+</head>
+
+<body>
+
+<h1> Araizhan </h1>
+
+<h2> SE-2431 </h2>
+
+<h3> I am 18. I am a student. </h3>
+
+<p> I am a motivated person who works hard to get results and make things better. </p>
+
+<ol>
+    <li>Cooking</li>
+    <li>Playing table tennis</li>
+</ol>
+
+<ul>
+    <li>learn.astanait</li>
+    <li>astanahub.com</li>
+</ul>
+
+<img src="https://informburo.kz/storage/photos/137/main/XnPstq6QIV2Gi8dXOiGSpfztru44E14APkPkdDWI.jpg" alt="Photo"
+/><br>
+<a href="https://astanahub.com/ru/?ysclid=mfiklg90tp255425658">Astana Hub</a>
+<a href="https://www.allrecipes.com/recipes/">Recipes</a>
+<a href="https://du.astanait.edu.kz/login">Astana IT</a>
+
+<br><br>
+<button> Click me </button><br>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly Class Schedule</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+      font-family: sans-serif;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <table aria-label="Weekly Class Schedule">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Day</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Web Technologies</td><td>Monday</td><td>09:00 – 09:50</td></tr>
+      <tr><td>Russian Language</td><td>Tuesday</td><td>15:00 – 15:50</td></tr>
+      <tr><td>Introduction to Finance</td><td>Wednesday</td><td>13:00 – 13:50</td></tr>
+      <tr><td>Operating Systems</td><td>Thursday</td><td>10:00 – 10:50</td></tr>
+      <tr><td>Physical Education</td><td>Friday</td><td>11:00 – 11:50</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>two-column layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    table.layout {
+      width: 100%;
+      height: 100vh;
+      border-collapse: collapse;
+    }
+    table.layout td {
+      vertical-align: top;
+      padding: 16px;
+    }
+
+    td.menu {
+      width: 240px;          
+      background: #f4f4f4;
+      border-right: 1px solid #ddd;
+    }
+    .menu a {
+      display: block;
+      padding: 8px 12px;
+      color: #333;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-bottom: 6px;
+    }
+    .menu a:hover {
+      background: #e0e0e0;
+    }
+    td.content {
+      background: #fff;
+    }
+
+    @media (max-width: 768px) {
+      table.layout {
+        display: block;
+      }
+      td.menu {
+        width: auto;
+        display: block;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+      }
+      td.content {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table class="layout" role="table" aria-label="Two-column layout">
+    <tr>
+      <td class="menu" aria-label="Main Menu">
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </td>
+      <td class="content" aria-label="Main content">
+        <h1>Welcome to our website!</h1>
+        <p>IT-COMPANY | KAZAKHSTAN</p>
+        <p>ARAI | АРАЙ</p>
+        <p>Today I am cheerful &#x1F483;, happy &#x1F44D; and smiling &#x1F642; !</p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <style>
+
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+    .form-field {
+      margin-bottom: 12px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="color"] {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    button[type="submit"] {
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <div class="form-field">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-field">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+
+    <div class="form-field">
+      <label for="favoriteColor">Favorite color</label>
+      <input type="color" id="favoriteColor" name="favoriteColor" value="#000000" />
+    </div>
+
+    <div class="form-field">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</body>
+</html>
+
+</body>
+</html>
